@@ -15,19 +15,20 @@ The **MedSRGAN** framework consists of:
 
 ## 📂 Repository Structure
 MedSRGAN/
-── data_pipeline.py       # Preprocessing pipeline for data loading
 
-│── discriminator.py       # Discriminator network implementation
+ data_pipeline.py       # Preprocessing pipeline for data loading
 
-│── generator.py           # Generator (RWMAN) network implementation
+ discriminator.py       # Discriminator network implementation
 
-│── losses.py              # Loss functions used for training
+ generator.py           # Generator (RWMAN) network implementation
 
-│── training.py            # Training loop and model optimization
+ losses.py              # Loss functions used for training
 
-│── notebooks/             # Jupyter notebooks for training & evaluation
+ training.py            # Training loop and model optimization
 
-│── data/                  # Folder to store dataset (not included in repo)
+ notebooks/             # Jupyter notebooks for training & evaluation
+
+ data/                  # Folder to store dataset (not included in repo)
 
 
 ## 🚀 Installation & Setup
